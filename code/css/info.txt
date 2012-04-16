@@ -1,0 +1,1 @@
+welcome to the css directory it contains on css file for the whole site feel free to add more separate it out and change whatever you want.

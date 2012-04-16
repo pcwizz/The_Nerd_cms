@@ -1,0 +1,18 @@
+<!DOCTYPE xml>
+<news>
+<article>
+<title>a whole new site</title>
+<date>3/4/12</date>
+<content>whole.txt</content>
+</article>
+<article>
+<title>could I just</title>
+<date>3/4/12</date>
+<content>just.txt</content>
+</article>
+<article>
+<name>emm</name>
+<date>3/3/12</date>
+<content>could.txt</content>
+</article>
+</news>

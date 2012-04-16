@@ -1,0 +1,8 @@
+<!DOCTYPE xml>
+<news>
+<article>
+<title>title</title>
+<date>date</date>
+<content>document in plain text</content>
+</article>
+</news>

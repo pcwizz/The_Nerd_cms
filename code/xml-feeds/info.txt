@@ -1,0 +1,2 @@
+this is the main database if you like xml stick with is and adapt how you wish.
+if you don't then don't use it but you will have to change the majority of the files.

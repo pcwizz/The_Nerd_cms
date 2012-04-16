@@ -1,0 +1,9 @@
+<!DOCTYPE xml>
+<events>
+	<event>
+		<name>event</name>
+		<date>date</date>
+		<time>time</time>
+		<info>info</info>
+
+</events>

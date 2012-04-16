@@ -1,0 +1,1 @@
+need any java script more than once put in a separate file in here then link it in the html documents needed or even the header template file, if needed on all pages.

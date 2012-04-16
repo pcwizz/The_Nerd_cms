@@ -1,0 +1,37 @@
+<?php
+include_once 'layout-templates/header.html';
+?>
+<h1>Anchor Paint</h1>
+</hgroup>
+</header>
+<canvas id="canvas" width="750px" height="750px" >sorry you web browser does not support HTML5 Canvas, so can not display this content i recommend Google Chrome.</canvas>
+<input id="b" type="button" name="clear" value="clear"/>
+<input id="bb" type="button" name="save" value="save"/>
+<script type="text/javascript">
+window.addEventListener("load", anchor_paint, false);
+function anchor_paint(){
+var x = document.getElementById('canvas');
+canvas = x.getContext('2d');
+var b = document.getElementById('b');
+var bb = document.getElementById('bb');
+x.addEventListener("mousemove", draw, false);
+b.addEventListener("click", dl, false);
+bb.addEventListener("click", save, false);
+}
+
+function draw(e){
+var xPos = e.clientX;
+var yPos = e.clientY;
+canvas.fillRect(xPos-50, yPos-50, 30, 30);
+}
+function dl(){
+canvas.clearRect(0, 0, 750, 750);
+}
+function save(){
+var can = document.getElementById('canvas');
+var img = can.toDataURL("image/png");
+document.write('<img src="'+img+'"/><a href="anchor_paint.html">back to anchor_paint</a>');
+}
+
+</script>
+</article>

@@ -1,0 +1,2 @@
+hey php f unctions on separate files please i don't like verbose people it looks untidy.
+this doesn't mater to the end user and I'm not going to stop you but you have to look at it, and untidy things defeat the whole object of this cms.

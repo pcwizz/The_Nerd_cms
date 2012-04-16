@@ -1,0 +1,21 @@
+<!DOCTYPE xml>
+<events>
+	<event>
+		<name>Car wash</name>
+		<date>21st of April</date>
+		<time>Starting at 10am</time>
+		<info>Everybody welcome to bring: friends and family.</info>
+	</event>
+		<event>
+		<name>Car wash</name>
+		<date>21st of April</date>
+		<time>Starting at 10am</time>
+		<info>Everybody welcome to bring: friends and family.</info>
+	</event>
+		<event>
+		<name>Car wash</name>
+		<date>21st of April</date>
+		<time>Starting at 10am</time>
+		<info>Everybody welcome to bring: friends and family.</info>
+	</event>
+</events>

@@ -1,0 +1,73 @@
+	</section>
+	<aside>
+<!-- this section can be used to display links to new or important parts of the website on the right side of the page -->
+<header>
+<hgroup id="haside">
+<!-- type of important things -->
+<h1>Events</h1>
+</hgroup>
+</header>	
+<!-- list of important things -->
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","xml-feeds/events.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table border='1' width='300px'><tr><td>Event</td><td>Date</td><td>More Info</td>");
+var x=xmlDoc.getElementsByTagName("event");
+for (i=0;i<2;i++)
+  { 
+  
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+  
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+ document.write("<a href='calender.php#")
+ document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+  document.write("'>more info</a></td></tr>");
+  }
+document.write("</table>");
+</script><hgroup><h1>News</h1></hgroup>
+<script type="text/javascript">
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","xml-feeds/newsfeed.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table border='1' width='300px'><tr><td>Title</td><td>Date</td><td>Read on</td>");
+var x=xmlDoc.getElementsByTagName("article");
+for (i=0;i<2;i++)
+  { 
+  
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+  
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+ document.write("<a href='news.php#")
+ document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+  document.write("'>more info</a></td></tr>");
+  }
+document.write("</table>");
+</script>
+
+	</aside> 
+	

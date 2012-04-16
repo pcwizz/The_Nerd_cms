@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- styles listed -->
+<link type="text/css" href="css/main.css" rel="stylesheet">
+<!-- title of page shown in Browser tab/window -->
+<title>Middlewich 1st Boys Brigade | Middlewich URC</title>
+<!-- meta data for search optimization -->
+<meta name="keywords" content="Boys Brigade, URC, Middlewich, church, Christian, youth, organization ">
+</head>
+<body>
+<header>
+<!-- this is the place containing the page navigation and general things at the top of the page -->
+<img src="images/topbanner.png" alt="" height="100px" width="1000px" id="banner" >
+<nav id="main-nav" class="nav">
+<ul id="main-nav-ul" class="nav">
+<li><a href="http://www.middlewichurc.org.uk/" >Main Site</a></li>
+<li><a href="index" >Boys Brigade Home</a></li>
+<li><a href="calender" >Event Calender</a></li>
+<li><a href="news" >News</a></li>
+<li><a href="games" >Games</a></li>
+<!-- add menus items here -->
+</ul>
+</nav>
+</header>
+
+	<section class="main-page" id="main">
+	
+		<article class="main-page">
+		<header class="main-page">
+				<hgroup class="main-page">

@@ -2,7 +2,7 @@
 include_once 'layout-templates/header.html';
 ?>
 					<!-- title of content -->
-					<h1><b>Welcome to the 1st Middlewich Boys Brigade website</b></h1>
+					<h1><!-- first heading --!></h1>
 					
 				</hgroup>
 			</header>

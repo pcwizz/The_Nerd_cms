@@ -1,3 +1,5 @@
+/* good lay out for desktop pcs with reasonably good screen res*/
+@media (min-width: 1024px){
 body {
 background-color: lightblue;
 text-align: left;
@@ -5,9 +7,138 @@ width: 1000px;
 margin: 0 auto;
 padding: 0;
 }
+body a{
+color: yellow;	
+	}
 #banner{
 margin-bottom: 0;
 margin-top: 20px;	
+height: 100px;
+width: 1000px;
+	}
+	/* navagation stuff */
+nav {
+	background-color: yellow;
+    position: relative;
+margin-top: 0px;
+margin-bottom: 20px;
+height: 20px;
+
+
+}
+nav ul {
+display: block;
+
+	}
+nav ul li {
+display: block;
+float: left;
+
+
+	}
+nav ul li a {
+margin-left: 10px;
+color: red;
+text-decoration: none;
+font-size: 1.1em;
+	}
+	nav ul li a:hover {
+	color: blue;
+	background-color: red;
+	
+
+	}
+	/* content area */
+#container {
+background-color: blue;	
+width: 690px;
+max-width: 690px;
+margin-right: 0px;
+margin-bottom: 0px;
+min-height: 400px;
+padding: 0;
+float: left;
+	}
+.main-page header {
+margin-bottom: 50px;	
+	}
+hgroup {
+text-align: center;	
+	}
+h1 {
+	margin: 0px;
+	padding: 0px;
+left: 0px;
+	font-size: 2.3em;
+	text-decoration: underline;
+	}	
+	h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.8em;
+	}	
+article {
+font-size: 1.1em;
+font-family: liberation sans;
+padding: 5px;
+	}	
+aside {
+background-color: red;
+width: 300px;
+padding-left: 5px;
+padding-right: 5px;
+	float: right;
+	min-height: 400px;
+	margin-top: 0px;
+font-size: 1.1em;
+font-family: freesans;
+		}
+aside table{
+width: 300px;		
+		}
+
+#games{
+width: 630px;
+margin: 0 auto;
+padding-left: 10px;
+	}
+.games {
+	float: left;
+	width: 200px;
+	height: 250px;
+border:1px solid black ;
+margin: 10px;	
+	}
+footer {
+	clear:both !important;
+background-color: black;
+color: white;	
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+font-size: 1em;
+font-family: liberation mono;
+width: 1000px;
+
+	}
+}
+/* good for netbooks and tablets. */
+@media (max-width: 1024px){
+body {
+background-color: lightblue;
+text-align: left;
+width: 900px;
+margin: 0 auto;
+padding: 0;
+}
+body a{
+color: yellow;	
+	}
+#banner{
+margin-bottom: 0;
+margin-top: 15px;	
+height: 90px;
+width: 900px;
 	}
 nav {
 	background-color: yellow;
@@ -41,8 +172,8 @@ font-size: 1.1em;
 	}
 #container {
 background-color: blue;	
-width: 690px;
-max-width: 690px;
+width: 640px;
+max-width: 640px;
 margin-right: 0px;
 margin-bottom: 0px;
 min-height: 400px;
@@ -70,10 +201,11 @@ left: 0px;
 article {
 font-size: 1.1em;
 font-family: liberation sans;
+padding: 5px;
 	}	
 aside {
 background-color: red;
-width: 300px;
+width: 250px;
 padding-left: 5px;
 padding-right: 5px;
 	float: right;
@@ -82,18 +214,19 @@ padding-right: 5px;
 font-size: 1.1em;
 font-family: freesans;
 		}
-table {
-border-color: black;	
+aside table{
+width: 250px;	
 	}
+
 #games{
-width: 630px;
+width: 580px;
 margin: 0 auto;
 padding-left: 10px;
 	}
 .games {
 	float: left;
-	width: 200px;
-	height: 250px;
+	width: 150px;
+	height: 275px;
 border:1px solid black ;
 margin: 10px;	
 	}
@@ -106,6 +239,254 @@ padding-bottom: 25px;
 text-align: center;
 font-size: 1em;
 font-family: liberation mono;
-width: 1000px;
+width: 900px;
 
 	}
+}
+/* higher end mobile phones */
+@media (max-width: 800px){
+body {
+background-color: lightblue;
+text-align: left;
+width: 800px;
+margin: 0 auto;
+padding: 0;
+}
+body a{
+color: yellow;	
+	}
+#banner{
+margin-bottom: 0;
+margin-top: 15px;	
+height: 70px;
+width: 790px;
+	}
+nav {
+	background-color: yellow;
+    position: relative;
+margin-top: 0px;
+margin-bottom: 20px;
+height: 20px;
+
+}
+nav ul {
+display: block;
+
+	}
+nav ul li {
+display: block;
+float: left;
+
+
+	}
+nav ul li a {
+margin-left: 10px;
+color: red;
+text-decoration: none;
+font-size: 1.1em;
+	}
+	nav ul li a:hover {
+	color: blue;
+	background-color: red;
+	
+
+	}
+#container {
+background-color: blue;	
+width: 585px;
+max-width: 585px;
+margin-right: 0px;
+margin-bottom: 0px;
+min-height: 400px;
+padding: 0;
+float: left;
+	}
+.main-page header {
+margin-bottom: 50px;	
+	}
+hgroup {
+text-align: center;	
+	}
+h1 {
+	margin: 0px;
+	padding: 0px;
+left: 0px;
+	font-size: 2em;
+	text-decoration: underline;
+	}	
+	h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5em;
+	}	
+article {
+font-size: 0.8em;
+font-family: liberation sans;
+padding: 3px;
+	}	
+aside {
+background-color: red;
+width: 205px;
+padding-left: 5px;
+padding-right: 5px;
+	float: right;
+	min-height: 400px;
+	margin-top: 0px;
+font-size: 0.8em;
+font-family: freesans;
+		}
+aside table{
+width: 205px;	
+	}
+
+#games{
+width: 500px;
+margin: 0 auto;
+padding-left: 10px;
+	}
+.games {
+	float: left;
+	width: 125px;
+	height: 200px;
+border:1px solid black ;
+margin: 10px;	
+	}
+footer {
+	clear:both !important;
+background-color: black;
+color: white;	
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+font-size: 0.7em;
+font-family: liberation mono;
+width: 800px;
+
+	}
+}
+/* lower end mobile phones */
+@media (max-width: 480px){
+body {
+background-color: lightblue;
+text-align: left;
+width: 480px;
+margin: 0 auto;
+padding: 0;
+}
+body a{
+color: yellow;	
+	}
+#banner{
+margin-bottom: 0;
+margin-top: 15px;	
+height: 50px;
+width: 470px;
+	}
+nav {
+	background-color: yellow;
+    position: relative;
+margin-top: 0px;
+margin-bottom: 20px;
+height: 20px;
+
+}
+nav ul {
+display: block;
+
+	}
+nav ul li {
+display: block;
+float: left;
+
+
+	}
+nav ul li a {
+margin-left: 10px;
+color: red;
+text-decoration: none;
+font-size: 0.8em;
+	}
+	nav ul li a:hover {
+	color: blue;
+	background-color: red;
+	
+
+	}
+#container {
+background-color: blue;	
+width: 350px;
+max-width: 350px;
+margin-right: 0px;
+margin-bottom: 0px;
+min-height: 400px;
+padding: 0;
+float: left;
+	}
+.main-page header {
+margin-bottom: 50px;	
+	}
+hgroup {
+text-align: center;	
+	}
+h1 {
+	margin: 0px;
+	padding: 0px;
+left: 0px;
+	font-size: 2em;
+	text-decoration: underline;
+	}	
+	h2 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5em;
+	}	
+article {
+font-size: 0.8em;
+font-family: liberation sans;
+padding: 3px;
+	}	
+aside {
+background-color: red;
+width: 120px;
+padding-left: 5px;
+padding-right: 5px;
+	float: right;
+	min-height: 400px;
+	margin-top: 0px;
+font-size: 0.55em;
+font-family: freesans;
+		}
+aside table{
+width: 120px;
+max-width: 120px; 
+	}
+
+#asnew{
+width: 120px;
+max-width: 120px; 	
+	}
+#games{
+width: 500px;
+margin: 0 auto;
+padding-left: 10px;
+	}
+.games {
+	float: left;
+	width: 125px;
+	height: 200px;
+border:1px solid black ;
+margin: 10px;	
+	}
+footer {
+	clear:both !important;
+background-color: black;
+color: white;	
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+font-size: 0.7em;
+font-family: liberation mono;
+width: 480px;
+
+	}
+}
